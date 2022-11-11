@@ -14,3 +14,9 @@ ios-debug:
 
 clean:
 	flutter clean
+
+dart-update:
+	dart pub global activate flutterfire_cli
+
+flutter-fire:
+	flutterfire configure --project=[project-name]
